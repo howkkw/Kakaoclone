@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "index.css";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import "variables.css";
+@import "friends.css";
+
+body{
+    font-family:'Do Hyeon', sans-serif;
+}
+.main_margin{
+    margin-left:25px;
+    margin-right:25px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
