@@ -25,11 +25,20 @@
 .icon_text_components_column_contents_title {
   font-size: 24px;
 }
-.icon_text_components_column_time {
+.icon_text_components_column_channel {
   font-size: 14px;
   opacity: 0.4;
   cursor: pointer;
 }
 .icon_text_components_column_contents_title_m {
   font-size: 17px;
+}
+.icon_text_components_column_contents{
+  display:flex;
+  flex-direction: column;
+}
+.icon_text_components_column_contents_subtitle{
+  margin-top:8px;
+  font-size:15px;
+  opacity:0.5;
 }
