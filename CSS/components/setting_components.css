@@ -1,0 +1,20 @@
+.setting_components{
+    display:flex;
+    width:99%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top:40px;
+    padding:0px 25px;
+}
+.setting_components_column{
+    width:33%;
+    font-size:30px;
+}
+.setting_components_column:nth-child(2){
+    text-align: center;
+}
+.setting_components_column:last-child{
+    display:flex;
+    justify-content: flex-end;
+}

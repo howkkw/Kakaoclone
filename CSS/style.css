@@ -5,6 +5,7 @@
 @import "components/icon_text_components.css";
 @import "components/main_header.css";
 @import "components/nav_bar.css";
+@import "components/setting_components.css";
 
 /*CSS*/
 @import "friends.css";
@@ -13,6 +14,7 @@
 @import "chats.css";
 @import "search.css";
 @import "more.css";
+@import "setting.css";
 body {
   font-family: "Do Hyeon", sans-serif;
 }
@@ -37,4 +39,11 @@ a {
   align-items: center;
   top: -4px;
   right: -8px;
+}
+.more_icon{
+  justify-content: unset;
+}
+.more_icon_column .find_icon_column_icon
+{
+  font-size:30px;
 }

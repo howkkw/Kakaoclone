@@ -21,15 +21,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+ 
 }
+.more_icon_column_icon{
+  font-size:30px;
+}
+.find_icon_column_icon{
+  font-size:45px;;
+}
+.more_icon_column_icon,
 .find_icon_column_icon {
-  font-size: 45px;
+  
   margin-bottom: 20px;
 }
 .find_icon_column {
   cursor: pointer;
   opacity: 0.7;
+  width:25%;
 }
 .Recomen_friends {
   margin-top: 40px;
