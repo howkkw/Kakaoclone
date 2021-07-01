@@ -1,0 +1,35 @@
+.icon_text_components_column_contents_subtitle .fa-exclamation {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+}
+.icon_text_components_column_contents_subtitle span {
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  width: 13px;
+  height: 13px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.icon_text_components_column_contents_subtitle {
+  display: flex;
+  align-items: center;
+}
+.icon_text_components_column_img {
+  display: flex;
+  align-items: center;
+}
+.more_components_subtitle {
+  opacity: 0.3;
+}
+.icon_text_components_column_img .fa-comment-alt {
+  font-size: 28px;
+}
+.more_icon .find_icon_column {
+  width: 25%;
+  justify-content: unset;
+}

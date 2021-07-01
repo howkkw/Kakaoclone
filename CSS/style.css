@@ -12,9 +12,9 @@
 @import "index.css";
 @import "chats.css";
 @import "search.css";
+@import "more.css";
 body {
   font-family: "Do Hyeon", sans-serif;
-  
 }
 .main_margin {
   margin-left: 25px;
@@ -24,17 +24,17 @@ a {
   text-decoration: none;
   color: black;
 }
-.red_circle_icon{
-  background-color:tomato;
-  width:24px;
-  height:24px;
+.red_circle_icon {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  position:absolute;
-  font-size:13px;
-  color:white;
-  display:flex;
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
-  top:-4px;
-  right:-8px;
+  top: -4px;
+  right: -8px;
 }
