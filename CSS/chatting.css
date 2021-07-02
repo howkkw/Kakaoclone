@@ -1,0 +1,79 @@
+.setting_components_column .fa-bars{
+    margin-left:25px;
+}
+.setting_components_column .fa-bars,
+.setting_components_column .fa-search{
+cursor: pointer;
+}
+.chatting_body{
+    background-color:#abc1d1;
+    height:150vh;
+}
+.chatting_date span{
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+    padding:7px;
+    border-radius: 15px;
+    
+}
+.chatting_date{
+    text-align: center;
+    margin-top:120px;
+}
+.chatting_header{
+    position: fixed;
+    top:0;
+    background-color: #abc1d1;
+    z-index:3;
+}
+.chatting_icon_text_icon img{
+    width:50px;
+    height:50px;
+    border-radius: 20px;
+    margin-right:10px;
+}
+.chatting_icon_text,
+.chatting_icon_text_reply{
+    display:flex;
+    margin-top:40px;
+}
+
+.chatting_icon_text{
+    margin-left:25px;
+}
+.chatting_icon_text_reply{
+    margin-right:25px;
+    justify-content: flex-end;
+}
+.chatting_icon_text_text_name{
+    opacity:0.5;
+    margin-bottom:10px;
+}
+.chatting_icon_text_text_contents_contents_reply,
+.chatting_icon_text_text_contents_contents{
+   
+    padding:10px;
+    border-radius: 13px;
+    
+  
+}
+.chatting_icon_text_text_contents_contents{
+    margin-right:10px;
+    background-color: white;
+}
+.chatting_icon_text_text_contents_contents_reply{
+border-top-right-radius: 0px;
+margin-left:10px;
+background-color: var(--yellow);
+}
+.chatting_icon_text_text_contents_contents{
+border-top-left-radius: 0px;}
+
+.chatting_icon_text_text_contents_date{
+    font-size:13px;
+    opacity: 0.4;
+}
+.chatting_icon_text_text_contents{
+    display:flex;
+    align-items: flex-end;
+}
