@@ -7,7 +7,7 @@
 }
 .chatting_body {
   background-color: #abc1d1;
-  height: 100vh;
+  height: 130vh;
 }
 .chatting_date span {
   background-color: rgba(0, 0, 0, 0.2);
@@ -178,4 +178,29 @@
 .keyboard_input_set {
   position: fixed;
   bottom: -269px;
+  transition:0.1s ease-in-out;
+}
+.keyboard_input_set:focus-within{
+transform:translateY(-269px);
+} 
+.keyboard_column:nth-child(2){
+  padding-left:15px;
+  padding-right:15px;
+}
+@keyframes fadein{
+  from{
+    opacity:0;
+    transform:translateY(10px);
+  }
+
+  
+  to{
+    opacity:1;
+
+  }
+}
+.chatting_date,
+.chatting_icon_text,
+.chatting_icon_text_reply{
+  animation:fadein 0.5s linear;
 }

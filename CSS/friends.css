@@ -28,3 +28,9 @@
   font-size: 15px;
   opacity: 0.4;
 }
+.icon_text_components_column:hover{
+  color:rgba(0,0,0,0.6);
+}
+.icon_text_components_column{
+  transition: 0.3s ease-in-out;
+}

@@ -48,3 +48,96 @@ a {
 {
   font-size:30px;
 }
+@keyframes rotatecog{
+  from{ transform:rotateZ(180deg);
+
+  }
+  to{
+    transform:rotateZ(360deg);
+  }
+}
+.fa-cog{
+animation:rotatecog 1s linear infinite;
+}
+.fa-cog:hover,
+.fa-music:hover{
+  animation:none;
+}
+@keyframes scalemusic{
+  0%{transform:scale(1);
+
+  }
+  50%{
+    transform:scale(1.2);
+
+  }
+  100%{transform:scale(1);
+
+
+  }
+}
+.fa-music{
+  animation:scalemusic 1s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes rotateredicon{
+  0%{transform:rotateX(0deg);
+    transform:translateY(0); 
+
+  }
+  50%{transform:rotateX(360deg);
+    transform:translateY(-5px);
+    
+
+  }
+  100%{transform:rotateX(0deg);
+    transform:translateY(0);
+   
+
+  }
+}
+.red_circle_icon{
+  animation:rotateredicon 1s ease-in-out infinite;
+}
+.open_kakao_page{
+  background-color:var(--yellow);
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:0;
+  font-size:110px;
+  animation:fadeout 0.5s ease-in-out forwards;
+  animation-delay:1s;
+}
+@keyframes fadeout{
+  from{opacity:1;
+  z-index:2;}
+  to{opacity:0;
+  z-index:-1;}
+}
+@keyframes navbar{
+  from{transform: translateY(none);}
+  to{transform:translateY(-60px)}
+}
+
+.nav_bar_column:first-child{
+  animation:navbar 0.4s ease-in-out forwards;
+}
+.nav_bar_column:nth-child(2){
+  
+  animation:navbar 0.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+.nav_bar_column:nth-child(3){
+  
+  animation:navbar 0.4s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+.nav_bar_column:last-child{
+  
+  animation:navbar 0.4s ease-in-out forwards;
+  animation-delay: 0.6s;
+}

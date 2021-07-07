@@ -134,3 +134,33 @@
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0px 5px;
 }
+.open_chat_genesis_img:hover .fa-heart{
+animation:heartbeat 0.5s ease-in-out infinite;
+}
+.open_chat_genesis_img .fa-heart{
+  will-change: transform;
+}
+@keyframes heartbeat{
+  0%{color:white;
+    transform:none;
+
+  }
+  50%{
+    color:red;
+    transform:scale(1.4);
+  }
+  100%{
+   color:white;
+      transform:none;
+  
+    }
+  }
+}
+
+.find_icon_column_icon:hover,
+.find_icon_column_text:hover{
+  color:black;
+}
+.find_icon_column_icon, .find_icon_column_text{
+  transition: 0.5s ease-in-out;
+}
