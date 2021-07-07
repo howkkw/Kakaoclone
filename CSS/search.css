@@ -157,10 +157,3 @@ animation:heartbeat 0.5s ease-in-out infinite;
   }
 }
 
-.find_icon_column_icon:hover,
-.find_icon_column_text:hover{
-  color:black;
-}
-.find_icon_column_icon, .find_icon_column_text{
-  transition: 0.5s ease-in-out;
-}
