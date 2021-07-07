@@ -81,17 +81,14 @@ animation:rotatecog 1s linear infinite;
   will-change: transform;
 }
 @keyframes rotateredicon{
-  0%{transform:rotateX(0deg);
-    transform:translateY(0); 
+  0%{transform:translateY(0); 
 
   }
-  50%{transform:rotateX(360deg);
-    transform:translateY(-5px);
+  50%{transform:translateY(-5px);
     
 
   }
-  100%{transform:rotateX(0deg);
-    transform:translateY(0);
+  100%{transform:translateY(0);
    
 
   }
@@ -140,4 +137,25 @@ animation:rotatecog 1s linear infinite;
   
   animation:navbar 0.4s ease-in-out forwards;
   animation-delay: 0.6s;
+}
+.media_query{
+  background-color:var(--yellow);
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:0;
+  font-size:50px;
+  z-index:99;
+}
+.chattingquery{
+  height:150vh;
+}
+
+@media screen and (max-width:580px){
+.media_query{
+  display:none;
+}
 }
